@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class PlayerCharacter : MonoBehaviour
 {
     public static string PlayerName { get; set; }
-    public static float BaseSpeed { get; set; } = 5;
+    public static float BaseSpeed { get; set; } = 2.5f;
     public static int BaseHealth { get; set; } = 50;
     public static int BaseStamina { get; set; } = 50;
     public static float EXP { get; set; } = 0;

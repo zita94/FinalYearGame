@@ -37,9 +37,11 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineInspector
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -539,7 +541,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: d1dc451aad40ea4f55e5d1213c629340
+      Hash: 83fe67ba3bcd763fd50bbed268cc479b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -1269,4 +1271,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/CharacterCreator.unity
   - Assets/Scenes/Introduction.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: D:/Zita/Uni stuff/Year 4/Final Year Game/Build/Final Year Game.exe
+  playerPath: D:/Zita/Uni stuff/Year 4/FinalYearGame/Final Year Game.exe
