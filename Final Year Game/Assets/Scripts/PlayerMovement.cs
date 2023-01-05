@@ -42,11 +42,14 @@ public class PlayerMovement : MonoBehaviour
         {
             moveSpeed = PlayerCharacter.BaseSpeed * 1.5f;
             sprint = true;
+            myAnim.speed = 1.2f;
         }
         else if (!Input.GetKey(KeyCode.LeftShift))
         {
             sprint = false;
             moveSpeed = PlayerCharacter.BaseSpeed;
+            myAnim.speed = 1;
+
         }
     }
 

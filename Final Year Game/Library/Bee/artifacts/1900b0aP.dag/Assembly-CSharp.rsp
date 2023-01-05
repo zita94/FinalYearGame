@@ -324,6 +324,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CharacterCustomization.cs"
+"Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/PlayerMovement.cs"
