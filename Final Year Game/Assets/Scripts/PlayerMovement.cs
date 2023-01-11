@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,7 +14,17 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 moveDirection;
     public Animator myAnim;
+    public Slider staminaBar;
+    public float energyUsed = 0;
+    public float energyDrainSpeed = 0.0002f;
+    public float characterBaseStamina;
+    public bool staminaLeft = true;
 
+    private void Start()
+    {
+        characterBaseStamina = PlayerCharacter.BaseStamina;
+        staminaBar.maxValue = characterBaseStamina;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +32,12 @@ public class PlayerMovement : MonoBehaviour
         CheckCrouch();
         CheckSprint();
         Attack();
+        staminaBar.value = energyUsed;
+        if (energyUsed >= characterBaseStamina)
+        {
+            staminaLeft = false;
+            moveSpeed = PlayerCharacter.BaseSpeed * 0.5f;
+        }
     }
 
     private void FixedUpdate()
@@ -38,18 +56,20 @@ public class PlayerMovement : MonoBehaviour
     private void CheckSprint()
     {
         if (crouch) { return; }
+        if (!staminaLeft) { energyDrainSpeed = 0; return; }
         if (Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = PlayerCharacter.BaseSpeed * 1.5f;
             sprint = true;
             myAnim.speed = 1.2f;
-        }
+            energyDrainSpeed = 0.002f;
+}
         else if (!Input.GetKey(KeyCode.LeftShift))
         {
             sprint = false;
             moveSpeed = PlayerCharacter.BaseSpeed;
             myAnim.speed = 1;
-
+            energyDrainSpeed = 0;
         }
     }
 
@@ -70,12 +90,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void Attack()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (staminaLeft)
         {
-            myAnim.SetBool("attack",true);
-        }
-        else
+            if (Input.GetMouseButtonDown(0))
+            {
+                myAnim.SetBool("attack", true);
+                energyUsed += 0.5f;
+            }
+            else
+            {
+                myAnim.SetBool("attack", false);
+            }
+        }else
         {
+            myAnim.SetBool("stamina", false);
             myAnim.SetBool("attack", false);
         }
     }
@@ -92,11 +120,7 @@ public class PlayerMovement : MonoBehaviour
         {
             myAnim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
             myAnim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+            energyUsed += energyDrainSpeed;
         }
-    }
-
-    private void OnAnimatorMove()
-    {
-
     }
 }
