@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public bool crouch = false;
     public bool attack = false;
     public Rigidbody2D rb;
-    private Vector2 moveDirection;
+    public static Vector2 moveDirection;
     public Animator myAnim;
     public Slider staminaBar;
     public float energyUsed = 0;

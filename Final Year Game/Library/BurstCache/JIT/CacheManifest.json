@@ -3,11 +3,11 @@
   "Assemblies": [
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-11T16:33:48.1341909Z"
+      "LastWriteTime": "2023-02-01T16:22:44.1965141Z"
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-11T16:33:43.1227493Z"
+      "LastWriteTime": "2023-02-01T16:22:41.1942406Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -19,7 +19,7 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-11T16:33:42.8961083Z"
+      "LastWriteTime": "2023-02-01T16:22:40.6700993Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -31,11 +31,7 @@
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-11T16:33:42.9001085Z"
-    },
-    {
-      "FullName": "mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "LastWriteTime": "2022-09-02T01:40:48Z"
+      "LastWriteTime": "2023-02-01T16:22:41.8713622Z"
     },
     {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -43,7 +39,7 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-01-11T16:33:46.4336694Z"
+      "LastWriteTime": "2023-02-01T16:22:43.5271803Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -79,19 +75,7 @@
         1,
         4,
         5,
-        2,
-        8
-      ]
-    },
-    {
-      "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 15221144590354301703,
-      "ModuleHash": "4fe702b907653714938afeaf9c3e0191",
-      "LinkName": "801E9A000BB37B05",
-      "AssemblyDependencyIndices": [
-        4,
-        5,
-        3
+        2
       ]
     },
     {
@@ -101,6 +85,7 @@
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         4,
+        8,
         5,
         3
       ]
@@ -112,15 +97,13 @@
       "LinkName": "7D2E04AB7759F565",
       "AssemblyDependencyIndices": [
         0,
-        9,
         3,
         6,
         1,
         5,
         4,
         7,
-        2,
-        8
+        2
       ]
     },
     {
@@ -130,13 +113,23 @@
       "LinkName": "104599FDEEB36FAE",
       "AssemblyDependencyIndices": [
         6,
+        9,
         10,
-        11,
         3,
         5,
         1,
-        7,
-        8
+        7
+      ]
+    },
+    {
+      "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "4fe702b907653714938afeaf9c3e0191",
+      "LinkName": "801E9A000BB37B05",
+      "AssemblyDependencyIndices": [
+        4,
+        5,
+        3
       ]
     }
   ]

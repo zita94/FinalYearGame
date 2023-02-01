@@ -325,10 +325,20 @@
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/CharacterCustomization.cs"
 "Assets/Scripts/EnemyController.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Inventory.cs"
+"Assets/Scripts/InventoryButton.cs"
+"Assets/Scripts/InventoryController.cs"
+"Assets/Scripts/InventoryPanel.cs"
+"Assets/Scripts/Item.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/PickUpItem.cs"
 "Assets/Scripts/PlayerCharacter.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SetIntro.cs"
+"Assets/Scripts/ToolHit.cs"
+"Assets/Scripts/ToolsCharacterController.cs"
+"Assets/Scripts/TreeCuttable.cs"
 -langversion:9.0
 
 /deterministic
