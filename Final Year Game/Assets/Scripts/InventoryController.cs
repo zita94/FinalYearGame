@@ -16,7 +16,16 @@ namespace Assets.Scripts
         {
             if (Input.GetKeyDown(KeyCode.I))
             {
-                _panel.SetActive(!_panel.activeInHierarchy);
+                if (PlayerCharacter.IsPaused)
+                {
+                    _panel.SetActive(!_panel.activeInHierarchy);
+                    PlayerCharacter.IsPaused = false;
+                }
+                else
+                {
+                    _panel.SetActive(!_panel.activeInHierarchy);
+                    PlayerCharacter.IsPaused = true;
+                }
             }
         }
     }

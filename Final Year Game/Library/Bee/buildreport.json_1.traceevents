@@ -1,461 +1,462 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1675269773475005, "dur": 151023, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1675269773475021, "dur": 8911, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1675269773483935, "dur": 129910, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1675269773613848, "dur": 12177, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1675269773627988, "dur": 34, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675887803166897, "dur": 178012, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675887803167205, "dur": 18649, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675887803185858, "dur": 146922, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675887803332782, "dur": 12126, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675887803345397, "dur": 29, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1675269773508361, "dur":1336, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773509708, "dur":144, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1675269773509889, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1675269773509913, "dur":629, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1675269773510566, "dur":716, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773511282, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595432, "dur":338, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595770, "dur":67, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595837, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595842, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595856, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595873, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595884, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595887, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595894, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595895, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595903, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595905, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595912, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595913, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595919, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595922, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595928, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595929, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595935, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595937, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595943, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595944, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595950, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595952, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595958, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595959, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595965, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595966, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595973, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595974, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595980, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595981, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595987, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773595998, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773596016, "dur":1732, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1675269773510596, "dur":692, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773511290, "dur":4340, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515640, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515641, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515678, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515680, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515769, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515800, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773515985, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516053, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516193, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516246, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516317, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516341, "dur":488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516830, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773516891, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773517033, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773517138, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773517260, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773517922, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518021, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518050, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518144, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518185, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518434, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518477, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518707, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1675269773518970, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773519047, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1675269773519079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1675269773543206, "dur":51654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1675269773594882, "dur":556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773510633, "dur":663, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773511296, "dur":4478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773515775, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1675269773515849, "dur":896, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773516746, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1675269773516775, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773517191, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518186, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518310, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518341, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518471, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518500, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518674, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1675269773518709, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773519520, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1675269773522546, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1675269773522570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1675269773522575, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1675269773524053, "dur":71381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773510621, "dur":671, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773511292, "dur":4481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773515773, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1675269773515830, "dur":834, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773516665, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1675269773516716, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773516803, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1675269773516831, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773516928, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1675269773516964, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773517143, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1675269773517776, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773517851, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1675269773518630, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773518718, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1675269773518761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1675269773524989, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1675269773527858, "dur":67627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773510661, "dur":642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773511304, "dur":4467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773515772, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1675269773515828, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516026, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516068, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516190, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516222, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516521, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516542, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516729, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516758, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516851, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773516880, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773517018, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773517051, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773517268, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773517873, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773517967, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518005, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518101, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518137, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518279, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518313, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518422, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518449, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518570, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518601, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518705, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1675269773518773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1675269773530962, "dur":63070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1675269773594062, "dur":1383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773510688, "dur":621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773511310, "dur":4495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773515806, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1675269773515851, "dur":993, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773516845, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1675269773517019, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773517128, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1675269773517162, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773517293, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1675269773517946, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773518065, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1675269773518414, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773518540, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1675269773518567, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773518700, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1675269773518766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1675269773530559, "dur":64817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1675269773595397, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1675269773595399, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773510714, "dur":600, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773511314, "dur":4487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773515803, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1675269773515857, "dur":1340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773517197, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":6, "ts":1675269773517781, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773517856, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":6, "ts":1675269773518108, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773518187, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1675269773518221, "dur":486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773518716, "dur":981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":6, "ts":1675269773519697, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773519762, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1675269773519792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773519797, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":6, "ts":1675269773522690, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1675269773522918, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1675269773522988, "dur":72442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773510739, "dur":578, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773511318, "dur":4358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773515678, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1675269773515745, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773515930, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773515980, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516050, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516077, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516194, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516224, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516299, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516324, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516387, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516411, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516616, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516640, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773516998, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773517140, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773517312, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773517949, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773518056, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1675269773518502, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773518620, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1675269773518666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1675269773519426, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":7, "ts":1675269773522700, "dur":72732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773510764, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773511321, "dur":4338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773515661, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1675269773515706, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773515898, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1675269773516634, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773516817, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1675269773516857, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773516987, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1675269773517023, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773517148, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1675269773517254, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773517347, "dur":627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1675269773517974, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773518092, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1675269773518496, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773518614, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":8, "ts":1675269773518815, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773518881, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level3" }}
-,{ "pid":12345, "tid":8, "ts":1675269773518915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1675269773538863, "dur":54987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level3" }}
-,{ "pid":12345, "tid":8, "ts":1675269773593871, "dur":1582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773510789, "dur":535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773511324, "dur":4331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773515657, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1675269773515724, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773515841, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":9, "ts":1675269773515889, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773515988, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516193, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516304, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516327, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516408, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516433, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516493, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516519, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516638, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516672, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516773, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516807, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516901, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773516932, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773517148, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518056, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518155, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518190, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518348, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518375, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518519, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518547, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518692, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":9, "ts":1675269773518722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1675269773524200, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":9, "ts":1675269773526159, "dur":69333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773510817, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773511327, "dur":4443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773515774, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1675269773515843, "dur":631, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773516475, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773516708, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773516785, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773516814, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773516905, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773516933, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773517134, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773517175, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773517265, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773517939, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773518056, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773518437, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773518563, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":10, "ts":1675269773518599, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773518690, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1675269773518716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1675269773523493, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1675269773524785, "dur":70646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773510842, "dur":487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773511330, "dur":4321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773515652, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1675269773515736, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773515865, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":11, "ts":1675269773515892, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516012, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516044, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516118, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516386, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516449, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516471, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516529, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516552, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516612, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516636, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516724, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516753, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516833, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773516862, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773517240, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773517850, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518166, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518222, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518387, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518421, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518585, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518879, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518963, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level1" }}
-,{ "pid":12345, "tid":11, "ts":1675269773518993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1675269773542791, "dur":50511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level1" }}
-,{ "pid":12345, "tid":11, "ts":1675269773593325, "dur":2132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773510863, "dur":470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773511333, "dur":4434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773515769, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1675269773515845, "dur":876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773516722, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1675269773516767, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773516875, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1675269773516923, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773517154, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":12, "ts":1675269773517835, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773517942, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":12, "ts":1675269773518407, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773518510, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":12, "ts":1675269773518538, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773518648, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1675269773518760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1675269773524574, "dur":68541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1675269773593155, "dur":2320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773510894, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773511336, "dur":4439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773515776, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":13, "ts":1675269773515829, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516109, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516283, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516354, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516375, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516435, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516455, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516510, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516530, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516639, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773516675, "dur":548, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773517224, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773517824, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773517911, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773517939, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518053, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518097, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518171, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518202, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518370, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518404, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518560, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518595, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518679, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":13, "ts":1675269773518776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1675269773535046, "dur":58187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":13, "ts":1675269773593255, "dur":2209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773510925, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773511338, "dur":4309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773515649, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1675269773515739, "dur":487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516227, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516251, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516323, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516345, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516400, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516420, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516474, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516501, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516561, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516641, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516751, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516784, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516885, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773516923, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773517135, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773517201, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773517299, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773517965, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773518061, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773518454, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773518579, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":14, "ts":1675269773518603, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773518746, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets" }}
-,{ "pid":12345, "tid":14, "ts":1675269773518785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1675269773535475, "dur":59407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets" }}
-,{ "pid":12345, "tid":14, "ts":1675269773594910, "dur":523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773510952, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773511342, "dur":4301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773515645, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1675269773515745, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773515992, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game.exe" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516028, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516099, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516125, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516297, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516326, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516388, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516410, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516471, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516492, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516547, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516567, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516626, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516648, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516753, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516779, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516879, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773516910, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773517022, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773517143, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773517253, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773517864, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773517964, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773518003, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773518093, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":15, "ts":1675269773518845, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773518915, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level2" }}
-,{ "pid":12345, "tid":15, "ts":1675269773518950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1675269773539306, "dur":53886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level2" }}
-,{ "pid":12345, "tid":15, "ts":1675269773593220, "dur":2250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773510985, "dur":360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773511345, "dur":4294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773515641, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":16, "ts":1675269773515710, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516206, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516257, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516341, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516369, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516433, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516875, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773516990, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773517027, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773517137, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773517490, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773517549, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773518059, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773518211, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773518247, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773518391, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773518425, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773518595, "dur":14074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773532676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1675269773532791, "dur":60993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":16, "ts":1675269773593809, "dur":1639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1675269773599250, "dur":1640, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1675269773628089, "dur": 1075, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1675269773627961, "dur": 1240, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1675887803217474, "dur":1287, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803218772, "dur":169, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675887803218994, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675887803219020, "dur":692, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675887803219743, "dur":720, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803220463, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308136, "dur":244, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308380, "dur":106, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308486, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308506, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308514, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308516, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308523, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308525, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308531, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308532, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308538, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308540, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308545, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308547, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308553, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308555, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308560, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308562, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308568, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308570, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308576, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308578, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308584, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308586, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308592, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308594, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308600, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308601, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308608, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308610, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308616, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308617, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308623, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308632, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803308652, "dur":1579, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675887803219949, "dur":521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803220472, "dur":5072, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225563, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225564, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225634, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225637, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225789, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225838, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225968, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675887803225999, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226266, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226295, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226445, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226477, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226615, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226656, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803226831, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675887803227271, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803227371, "dur":956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675887803228327, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803228430, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1675887803228471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675887803303846, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1675887803304942, "dur":3190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803219986, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803220478, "dur":5071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803225561, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1675887803225687, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803225881, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803225939, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226104, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226134, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226235, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226261, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226417, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226449, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226602, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226635, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226766, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226802, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803226910, "dur":609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803227520, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803227624, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803227854, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803227944, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675887803227970, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803228091, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1675887803228310, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803228417, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1675887803228448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675887803303460, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1675887803304930, "dur":3202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803219973, "dur":501, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803220474, "dur":5077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803225561, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1675887803225658, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803225862, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803225929, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226028, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226057, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226194, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226235, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226405, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226441, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226602, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226775, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803226931, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803227577, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803227709, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675887803227976, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803228109, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675887803228149, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675887803228895, "dur":67254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675887803296185, "dur":11968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803220007, "dur":475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803220482, "dur":5071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803225562, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675887803225646, "dur":231, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803225878, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1675887803225970, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226109, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226156, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226271, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226305, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226457, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226501, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226623, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226658, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803226925, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803227537, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803227650, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803227921, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803228074, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675887803228108, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803228199, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1675887803228376, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803228446, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1675887803228472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675887803307094, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1675887803308098, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1675887803308099, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803220033, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803220486, "dur":5066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803225561, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1675887803225678, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803225870, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1675887803225922, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226025, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226055, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226208, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226248, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226603, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226639, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803226776, "dur":710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227486, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227598, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227630, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227735, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227767, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227882, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803227914, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803228071, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675887803228109, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803228221, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675887803228257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675887803296243, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675887803298659, "dur":9479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803220055, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803220489, "dur":5066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803225561, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675887803225679, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803225878, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675887803225929, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226033, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226064, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226210, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226241, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226410, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226441, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226590, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226619, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803226775, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803227409, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803227536, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803227573, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803227677, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803227882, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803228032, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675887803228069, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803228216, "dur":874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1675887803229090, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803229157, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1675887803229180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803229183, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1675887803231297, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675887803231320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803231325, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1675887803232794, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1675887803232997, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675887803233134, "dur":75005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803220077, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803220492, "dur":5073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803225567, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1675887803225668, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803225916, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803225981, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226148, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226183, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226442, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226473, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226610, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226648, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803226825, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803227690, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803227792, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803227824, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803227937, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675887803227965, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803228095, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1675887803228138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803228809, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1675887803231605, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1675887803231625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675887803231629, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1675887803233094, "dur":75034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803220102, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803220495, "dur":5062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803225560, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1675887803225652, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803225854, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803225988, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803226175, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803226649, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803226812, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803226846, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803226971, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803227606, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803227736, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803227768, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803227872, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803227901, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803228046, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675887803228073, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803228190, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675887803228245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675887803295857, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675887803297852, "dur":10297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803220129, "dur":370, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803220499, "dur":5061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803225560, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1675887803225642, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803225850, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1675887803225905, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226009, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226051, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226195, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226226, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226389, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226420, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226558, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226591, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226772, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226819, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803226909, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803227461, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803227544, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803227584, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803227725, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675887803228014, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803228147, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1675887803228181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675887803232779, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1675887803234280, "dur":73850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803220150, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803220502, "dur":5056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803225561, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1675887803225636, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803225795, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1675887803225838, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803225969, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226013, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226176, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226214, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226378, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226407, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226517, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226542, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226655, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226769, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803226903, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803227572, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803227709, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675887803228009, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803228124, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1675887803228163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675887803232325, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1675887803234089, "dur":74040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803220173, "dur":332, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803220505, "dur":5056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803225562, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1675887803225675, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803225884, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803225977, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226145, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226185, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226329, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226360, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226489, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226517, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226640, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226670, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803226832, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803227386, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803227498, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803227929, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803228080, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675887803228112, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803228231, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675887803228269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675887803300141, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1675887803301496, "dur":6641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803220196, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803220508, "dur":5055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803225564, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1675887803225670, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803225904, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803225984, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226150, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226198, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226358, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226396, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226511, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226542, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226660, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226770, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803226899, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227433, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227541, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227584, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227726, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227760, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227851, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803227879, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803228010, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675887803228039, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803228184, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675887803228236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675887803236865, "dur":60152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675887803297046, "dur":11089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803220221, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803220511, "dur":5055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803225566, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1675887803225672, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803225903, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803225982, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226156, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226193, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226338, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226370, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226499, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226531, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226649, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226770, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803226909, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803227726, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803227844, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803227877, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803228015, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675887803228042, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803228179, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1675887803228237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675887803237244, "dur":59009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1675887803296281, "dur":11868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803220248, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803220514, "dur":5054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803225568, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1675887803225648, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803225897, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803225989, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226185, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226217, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226386, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226422, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226559, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226650, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803226820, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227316, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227407, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227665, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227785, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227818, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227914, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803227946, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803228080, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803228318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675887803300678, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675887803301775, "dur":6370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803220269, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803220517, "dur":5052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803225569, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1675887803225649, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803225886, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803225980, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226153, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226191, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226341, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226380, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226499, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226531, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226650, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226761, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803226886, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803227380, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803227480, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803227515, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803227847, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803227878, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803228010, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675887803228039, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803228184, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675887803228242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675887803240278, "dur":56096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675887803296401, "dur":11732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803220296, "dur":224, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803220520, "dur":5039, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803225562, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1675887803225663, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803225862, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803225913, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226014, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226050, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226196, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226234, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226428, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226453, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226604, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226633, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803226773, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227232, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227321, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227633, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227761, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227795, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227893, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803227925, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803228083, "dur":11172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803239261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675887803239412, "dur":56958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zita Cathcart/Desktop/Final Year Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675887803296401, "dur":11740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675887803311685, "dur":1660, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675887803345500, "dur": 1037, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675887803345375, "dur": 1198, "ph": "X", "name": "Write chrome-trace events", "args": {} },

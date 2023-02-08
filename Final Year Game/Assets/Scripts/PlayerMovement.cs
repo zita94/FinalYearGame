@@ -1,10 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = PlayerCharacter.BaseSpeed;
@@ -19,7 +16,15 @@ public class PlayerMovement : MonoBehaviour
     public float energyDrainSpeed = 0.0002f;
     public float characterBaseStamina;
     public bool staminaLeft = true;
+    public float lastMoveX;
+    public float lastMoveY;
+    public static Vector2 facingDirection;
 
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+
+    }
     private void Start()
     {
         characterBaseStamina = PlayerCharacter.BaseStamina;
@@ -28,21 +33,27 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcessInputs();
-        CheckCrouch();
-        CheckSprint();
-        Attack();
-        staminaBar.value = energyUsed;
-        if (energyUsed >= characterBaseStamina)
+        if (!PlayerCharacter.IsPaused)
         {
-            staminaLeft = false;
-            moveSpeed = PlayerCharacter.BaseSpeed * 0.5f;
+            ProcessInputs();
+            CheckCrouch();
+            CheckSprint();
+            Attack();
+            staminaBar.value = energyUsed;
+            if (energyUsed >= characterBaseStamina)
+            {
+                staminaLeft = false;
+                moveSpeed = PlayerCharacter.BaseSpeed * 0.5f;
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        Move();
+        if (!PlayerCharacter.IsPaused)
+        {
+            Move();
+        }
     }
 
     private void ProcessInputs()
@@ -120,6 +131,9 @@ public class PlayerMovement : MonoBehaviour
         {
             myAnim.SetFloat("lastMoveX", Input.GetAxisRaw("Horizontal"));
             myAnim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
+            lastMoveX = Input.GetAxisRaw("Horizontal");
+            lastMoveY = Input.GetAxisRaw("Vertical");
+            facingDirection = new Vector2(lastMoveX, lastMoveY);
             energyUsed += energyDrainSpeed;
         }
     }

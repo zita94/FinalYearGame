@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Vector2 = UnityEngine.Vector2;
 
 public class ToolsCharacterController : MonoBehaviour
 {
-    private CharacterController _character;
+    private PlayerMovement _character;
     private Rigidbody2D _rigidbody;
-    [SerializeField] private float _offsetDistance = 1f;
-    [SerializeField] float _sizeOfInteractableArea = 1.2f;
+    private float _offsetDistance = 0.5f;
+    private float _sizeOfInteractableArea = 0.2f;
 
     private void Awake()
     {
-        _character = GetComponent<CharacterController>();
+        _character = GetComponent<PlayerMovement>();
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 

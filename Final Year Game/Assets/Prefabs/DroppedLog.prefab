@@ -133,4 +133,4 @@ MonoBehaviour:
   _pickupDistance: 1.5
   _ttl: 10
   item: {fileID: 11400000, guid: 1b20256ea5dc7d3449fb9a8f294e62c7, type: 2}
-  count: 3
+  count: 1

@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1134,7 +1146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_all_145
+      name: Chest
       rect:
         serializedVersion: 2
         x: 528
@@ -9480,7 +9492,6 @@ TextureImporter:
       UI_all_872: -440892524
       UI_all_590: -1666453265
       UI_all_908: -2110555768
-      UI_all_145: -802095420
       UI_all_738: 1931031006
       UI_all_14: -1932979966
       UI_all_474: -1165514040
@@ -9570,14 +9581,14 @@ TextureImporter:
       UI_all_71: 2026292316
       UI_all_677: 2096585499
       UI_all_833: 1610266779
-      UI_all_610: 918418550
+      UI_all_393: 206354023
       UI_all_944: -236884447
       UI_all_297: 131463381
-      UI_all_393: 206354023
       UI_all_531: 683664353
       UI_all_787: 78944032
       UI_all_188: 839903502
       UI_all_534: 1643006372
+      UI_all_610: 918418550
       UI_all_220: -154674318
       UI_all_855: -1702853845
       UI_all_725: 1763170693
@@ -9905,6 +9916,7 @@ TextureImporter:
       UI_all_709: 634989071
       UI_all_911: -373464801
       UI_all_543: -1232312938
+      Chest: -802095420
       UI_all_827: 1116796999
       UI_all_102: 366076674
       UI_all_897: -1261564215

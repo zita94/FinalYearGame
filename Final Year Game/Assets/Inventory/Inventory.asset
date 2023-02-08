@@ -20,11 +20,11 @@ MonoBehaviour:
   - item: {fileID: 11400000, guid: c81f6e63fb6e1f54398d31feeb6b4b1c, type: 2}
     count: 10
   - item: {fileID: 11400000, guid: 1b20256ea5dc7d3449fb9a8f294e62c7, type: 2}
-    count: 45
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
+    count: 99
+  - item: {fileID: 11400000, guid: 1b20256ea5dc7d3449fb9a8f294e62c7, type: 2}
+    count: 99
+  - item: {fileID: 11400000, guid: 1b20256ea5dc7d3449fb9a8f294e62c7, type: 2}
+    count: 3
   - item: {fileID: 0}
     count: 0
   - item: {fileID: 0}

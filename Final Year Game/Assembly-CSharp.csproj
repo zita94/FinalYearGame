@@ -73,6 +73,10 @@
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\TreeCuttable.cs" />
+    <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\ChestInteract.cs" />
+    <Compile Include="Assets\Scripts\CharacterInteractController.cs" />
+    <Compile Include="Assets\Scripts\NPCInteract.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

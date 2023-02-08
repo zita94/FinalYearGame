@@ -13,4 +13,5 @@ public class PlayerCharacter : MonoBehaviour
     public static int Level { get; set; } = 1;
     public static float BaseAttack { get; set; } = 5;
 
+    public static bool IsPaused { get; set; } = false;
 }
