@@ -6,7 +6,7 @@ The report for my project can be downloaded from [here](https://github.com/zita9
 
 Below are screenshots of the game running, showing the start screen, parts of the map, combat, enemies and more. 
 
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272028226-22809149-560f-44c1-96bc-35c5c5d19593.png" width="700">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272028226-22809149-560f-44c1-96bc-35c5c5d19593.png" >
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272028257-ca083ec0-7b3f-4fdc-8645-c8fc3122fb97.png" width="700">
 
