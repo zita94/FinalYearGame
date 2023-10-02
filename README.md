@@ -2,7 +2,7 @@
 
 I designed, developed and tested a mystery, role-playing game with branching storylines using the Unity game engine as the final year project of my Bachelor's degree and received a grade of 82.
 
-The report for my project can be downloaded from [here](https://github.com/zita94/FinalYearGame/blob/6154e8de1b366cfec2d2f86e71de17869ed993f0/final_report.docx) where I have done detailed research, discussed design decisions, created a project timeline and evaluated my project. 
+The report for my project can be downloaded from [here](https://github.com/zita94/FinalYearGame/blob/6154e8de1b366cfec2d2f86e71de17869ed993f0/final_report.docx). In the report I have included detailed research, discussed design decisions, created a project timeline, created a testing plan and evaluated my project. 
 
 Below are screenshots of the game running, showing the start screen, parts of the map, combat, enemies and more. 
 
