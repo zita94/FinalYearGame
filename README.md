@@ -4,6 +4,7 @@ I designed, developed and tested a mystery, role-playing game with branching sto
 
 The report for my project can be downloaded from [here](https://github.com/zita94/FinalYearGame/blob/6154e8de1b366cfec2d2f86e71de17869ed993f0/final_report.docx). In the report I have included detailed research, discussed design decisions, created a project timeline, created a testing plan and evaluated my project. 
 
+##
 Below are screenshots of the game running, showing the start screen, parts of the map, combat, enemies and more. 
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272028226-22809149-560f-44c1-96bc-35c5c5d19593.png">
