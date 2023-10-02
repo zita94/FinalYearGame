@@ -13,3 +13,7 @@ Below are screenshots of the game running, showing the start screen, parts of th
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272028665-2a049798-04bb-4a73-8cf2-eccf1e076733.png" width="700">
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272029214-528b1791-d85f-4e3a-b367-67333f5f2449.png" width="700">
+
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272037445-fadf742e-31a6-4f81-85ae-fbcd3d60328c.png" width="700">
+
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/56891175/272037728-000f1036-2464-41f2-8280-e7005362b368.png" width="700">
